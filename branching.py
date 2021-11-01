@@ -12,5 +12,10 @@ if year <= 1900:  # added :
     print("Woah, that's the past!")  # added end of quote and fixed print
 elif year > 1900 & year < 2020:         # erased extra &
     print("That's totally the present!")
+'''
+
+else:
+    print("Far out, that's the future!!")
+'''
 elif year > 1900 & year > 2020:         # added the expression to make print true
     print("Far out, that's the future!!")
